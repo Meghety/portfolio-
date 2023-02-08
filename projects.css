@@ -1,0 +1,36 @@
+* {
+    font-family: roboto, Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: linear-gradient(to right, #8D5F98, #FFFFFF);
+}
+
+.container {
+    position: relative;
+    width: 100%;
+}
+
+/*navigation bar*/
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 10px;
+    justify-content: end;
+    width: 90%;
+    margin-top: 30px;
+}
+
+.line {
+    border: 0.2px solid rgb(0, 0, 0, 0.2);
+    height: 10px;
+
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+}
+

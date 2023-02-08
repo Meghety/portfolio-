@@ -1,0 +1,69 @@
+* {
+    font-family: roboto, Arial, Helvetica, sans-serif;
+
+}
+
+body {
+    background: linear-gradient(to right, #8D5F98, #FFFFFF);
+}
+
+.container {
+    position: relative;
+    width: 100%;
+}
+
+/*main*/
+
+.main {
+    position: absolute;
+    top: 150px;
+    left: 0px;
+    width: 80%;
+}
+
+.main p {
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+/*navbar*/
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 10px;
+    justify-content: end;
+    width: 90%;
+    margin-top: 30px;
+}
+
+.line {
+    border: 0.2px solid rgb(0, 0, 0, 0.2);
+    height: 10px;
+
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+}
+
+.progress-bar{
+    height: 24px;
+    width: 50%;
+}
+
+.progress-bar {
+    height: 20px;
+    width: 100%;
+    background-color: lightgray;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.progress-bar-fill {
+    height: 100%;
+    background-color: blue;
+    transition: width 0.2s ease-in;
+}
