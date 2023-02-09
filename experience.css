@@ -19,7 +19,7 @@ body{
     column-gap: 10px;
     width: 90%;
     margin-top: 30px;
-    margin-left: 100px;
+    margin-left: 50px;
     justify-content: start;
 
 }
@@ -50,7 +50,7 @@ body{
 }
 .grid{
     margin-top: 0px;
-    margin-left: 100px;
+    margin-left: 50px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
@@ -113,7 +113,7 @@ img:hover{
 }
 
 .title{
-    margin-left: 100px;
+    margin-left: 50px;
     margin-bottom: 50px;
     margin-top: 100px;
 
@@ -125,7 +125,7 @@ img:hover{
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-left: 100px;
+    margin-left: 50px;
     margin-top: 80px;
 }
 
